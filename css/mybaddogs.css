@@ -95,7 +95,7 @@ nav i {
 
 nav #iamhere {
     text-decoration: underline;
-    text-decoration-color: #B8860B;
+    text-decoration-color: #5A440D;
 }
 
 article {
@@ -251,7 +251,7 @@ table, th, td {
 }
 
 th {
-    background-color: #B8860B;
+    background-color: #5A440D;
     color: white;
     font-weight: bold;
     text-align: left;
@@ -281,7 +281,7 @@ button {
 }
 
 button:focus, button:hover {
-    background-color: #B8860B;
+    background-color: #5A440D;
 }
 
 article .fa:first-of-type {
