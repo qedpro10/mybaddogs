@@ -1,0 +1,171 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	//background-color: #ffc;
+	padding: 5em 0 0 0;
+	margin: 0;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left:0;
+    height: auto;
+	background-color: lightblue;
+	color: white;
+	width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    left:0;
+    height: auto;
+    background-color: lightblue;
+	color: white;
+	width: 100%;
+    margin: auto;
+}
+
+
+
+footer a {
+	float: left;
+    padding: 0.2em 0.2em 0em 0.2em;
+
+}
+
+footer div {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 0;
+
+    text-align: center;
+}
+footer div p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+header a {
+	float: left;
+    padding: 0.2em 0.2em 0em 0.2em;
+}
+
+header a img {
+    border-radius: 10px;
+}
+
+header h1 {
+    float: left;
+    padding-left: 1em;
+    margin-top: 30px;
+}
+
+header form {
+    float: right;
+    padding-top: 0.5em;
+    padding-right: 1.3em;
+}
+nav {
+	font-size: 1.5em;
+	font-weight: bold;
+	//width: 70%;
+	padding-top: 1em;
+
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+    float: right;
+	list-style-type: none;
+	text-align: left;
+}
+nav li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav a:hover {
+    background-color: navy;
+    border-radius: 10px;
+}
+
+nav #iamhere {
+    color: black;
+}
+
+body div {
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+}
+article {
+	overflow: auto;
+	float: left;
+    padding-top: 2em;
+}
+
+p:first-of-type img {
+    float: left;
+    border: double black;
+    border-radius: 10px;
+    margin: 0em 1em 1em 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 1em;
+	width: 90%;
+}
+fieldset {
+    float: left;
+	margin-bottom: 2em;
+	margin-right: 5em;
+	border: double solid black;
+    border-radius: 10px;
+	background-color: #ffc;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+    //margin-bottom: 1.5em;
+}
+
+label[for|=dog] {
+    margin-top: 1.5em;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+	display: block;
+	margin-bottom: 1.5em;
+	width: 15em;
+}
+
+textarea {
+    margin-top: 0.5em;
+    width: 500px;
+    height: 150px;
+}

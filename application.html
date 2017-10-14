@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Bad Dogs - Application</title>
+    	<link href="css/mybaddogs.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/3b8437358f.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+    </head>
+    <body>
+        <a href="#maincontent">Skip to main content</a>
+        <header role="banner">
+            <a href="https://www.boredpanda.com/underwater-dogs-seth-casteel/"><img src="images/smilingdog_in_water.jpg" alt="french bulldog diving for ball underwater"></a>
+            <h1>My Bad Dogs</h1>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-paw" aria-hidden="true"></i>Home</a></li>
+                    <li><a href="adoption.html">For Adoption</a></li>
+                    <li><a id="iamhere" href="application.html">Application</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main" id="maincontent">
+            <div class="wrapper">
+                <h2>Application</h2>
+
+                <form role="form" action="" method="">
+                    <fieldset>
+        				<legend>Create Account</legend>
+
+                        <label for="name">Your name</label>
+                            <input type="text" id="name" name="name" autofocus>
+
+        				<label for="email">Email</label>
+        					<input type="email" id="email" name="email">
+
+                        <label for="password">Password</label>
+        					<input type="password" id="password" name="password">
+
+                        <label for="verify">Verify Password</label>
+        					<input type="password" id="verify" name="verify">
+
+        				<label for="tel">Phone number</label>
+        					<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+        			</fieldset>
+
+                    <fieldset>
+                        <legend>Tell Us About You</legend>
+
+                        <label>About your home</label>
+                        <label>
+                            <input type="radio" name="home" value="rent" > Rent
+                        </label>
+                        <label>
+                            <input type="radio" name="home" value="own" checked> Own
+                        </label>
+
+                        <label for="dog">Check all that apply
+                            <label>
+                                <input type="checkbox" value="fence">Completely fenced backyard
+                            </label>
+                            <label>
+                                <input type="checkbox" value="door">Dog door
+                            </label>
+                            <label>
+                                <input type="checkbox" value="kennel">Outside kennel
+                            </label>
+                        </label>
+                        <label for="dog">What dog are you interested in:
+                            <select id="dog">
+        						<option selected>Select one...</option>
+        						<option value="bobo">Bobo</option>
+        						<option value="chewy">Chewy</option>
+        						<option value="jenkins">Jenkins</option>
+        						<option value="riker">Riker</option>
+        					</select>
+                        </label>
+
+            			<textarea id="comments" placeholder="Why do you want that dog?"></textarea>
+                        <p>
+        				    <button type="submit">Submit</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+    <footer role="contentinfo">
+        <a href="#"><img src="images/dog_logo.jpg" alt="doginwater"></a>
+        <p>My Bad Dogs &copy; 2017.  All Rights Reserved</p>
+        <ul>
+            <li><a href="https://www.aspca.org/"><img src="images/aspca.jpg" alt="A S P C A"></a></li>
+            <li><a href="https://secure.humanesociety.org/site"><img src="images/humanesociety.jpg" alt="Humane Society"></a></li>
+        </ul>
+    </footer>
+</html>
