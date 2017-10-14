@@ -168,6 +168,7 @@ fieldset {
 	border: double solid black;
     border-radius: 10px;
 	background-color: #ffc;
+    padding: 0 20px;
 }
 
 legend {
@@ -176,10 +177,9 @@ legend {
 
 label {
 	display: block;
-    //margin-bottom: 1.5em;
 }
 
-label[for|=dog] {
+label[for^=dog] {
     margin-top: 1.5em;
 }
 
