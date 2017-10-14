@@ -6,16 +6,16 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
-	//background-color: #ffc;
-	padding: 0;
 	margin: 10em 0 0 0;
 }
 
 h2 {
     font-size: 2em;
-    padding-bottom: 10px;
+    padding: 25px 0 5px 0;
+    margin: 0;
 }
 
 h3 {
@@ -31,8 +31,6 @@ strong {
     font-weight: bold;
     padding-right: 5px;
 }
-
-
 
 header {
     position:fixed;
@@ -65,7 +63,6 @@ header h1 {
 nav {
 	font-size: 1.5em;
 	font-weight: bold;
-	//width: 70%;
 	padding-top: 1em;
 
 }
@@ -100,7 +97,6 @@ nav #iamhere {
     text-decoration: underline;
     text-decoration-color: #B8860B;
 }
-
 
 article {
 	overflow: auto;
@@ -238,9 +234,7 @@ tr:hover, tr:focus {
 }
 
 .wrapper > h2 {
-    //font-size: 3em;
-    //padding-bottom: 10px;
-    //width: 80%;
+    padding-top: 25px;
     margin: 0 auto;
     text-align: center;
 }
