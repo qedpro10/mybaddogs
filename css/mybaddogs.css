@@ -265,7 +265,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: lightgray;
+    background-color: #ffc;
 }
 
 tr:hover, tr:focus {
