@@ -284,21 +284,24 @@ button:focus, button:hover {
     background-color: #B8860B;
 }
 
-.fa {
+article .fa:first-of-type {
+    padding-left: 10px;
+}
+article .fa {
     padding: 0 2px;
 }
 
 .drtip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px solid black;
 }
 
 .drtip .drtiptext {
     visibility: hidden;
-    width: 250px;
-    background-color: black;
-    color: #fff;
+    width: 220px;
+    background-color:#0d3d56;
+    color: white;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
