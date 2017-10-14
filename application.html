@@ -28,33 +28,34 @@
                 <form role="form" action="none.php" method="post">
                     <fieldset>
         				<legend>Create Account</legend>
+                        <p>
+                            <label for="name">Your name</label>
+                                <input type="text" id="name" name="name" required autofocus>
 
-                        <label for="name">Your name</label>
-                            <input type="text" id="name" name="name" required autofocus>
+            				<label for="email">Email</label>
+            					<input type="email" id="email" name="email" required>
 
-        				<label for="email">Email</label>
-        					<input type="email" id="email" name="email" required>
+                            <label for="password">Password</label>
+            					<input type="password" id="password" name="password" required>
 
-                        <label for="password">Password</label>
-        					<input type="password" id="password" name="password" required>
+                            <label for="verify">Verify Password</label>
+            					<input type="password" id="verify" name="verify" required>
 
-                        <label for="verify">Verify Password</label>
-        					<input type="password" id="verify" name="verify" required>
-
-        				<label for="tel">Phone number</label>
-        					<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx" required>
+            				<label for="tel">Phone number</label>
+            					<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx" required>
+                        </p>
         			</fieldset>
 
                     <fieldset>
                         <legend>Tell Us About You</legend>
-
-                        <label for="home">About your home</label>
-                        <label>
-                            <input type="radio" name="home" value="rent" > Rent
-                        </label>
-                        <label>
-                            <input type="radio" name="home" value="own" checked> Own
-                        </label>
+                        <p>About your home
+                            <label>
+                                <input type="radio" name="home" value="rent" > Rent
+                            </label>
+                            <label>
+                                <input type="radio" name="home" value="own" checked> Own
+                            </label>
+                        </p>
 
                         <p>Check all that apply
                             <label>
@@ -77,11 +78,10 @@
         					</select>
                         </label>
 
-                        <p>Tell us what you're looking for in a dog
-                            <label for="comments">
-                			    <textarea id="comments" placeholder="What do you want in a dog?" required></textarea>
-                            </label>
-                        </p>
+                        <label for="dogcomments">Tell us what you're looking for in a dog
+            			    <textarea id="dogcomments" placeholder="What do you want in a dog?" required></textarea>
+                        </label>
+
                         <p>
         				    <button type="submit">Submit</button>
                         </p>
