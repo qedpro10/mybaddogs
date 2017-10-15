@@ -60,6 +60,7 @@ header h1 {
     margin: 1em 0 0 0;
 }
 
+/* Navigation bar */
 nav {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -157,6 +158,8 @@ article {
     margin-right: 20px;
 }
 
+/* forms styling */
+
 fieldset {
     float: left;
 	margin-bottom: 2em;
@@ -196,6 +199,20 @@ form + p {
     clear: both;
 }
 
+button {
+    background-color: #0d3d56;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+button:focus, button:hover {
+    background-color: #5A440D;
+}
+
+/* footer styling */
 footer {
     background-color: #0d3d56;
 	color: white;
@@ -234,6 +251,7 @@ footer ul li {
     vertical-align: middle;
 }
 
+/* table accessibility styling */
 table {
     border-collapse: collapse;
 }
@@ -269,18 +287,6 @@ tr:hover, tr:focus {
     color: white;
 }
 
-button {
-    background-color: #0d3d56;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 1.5em;
-}
-
-button:focus, button:hover {
-    background-color: #5A440D;
-}
 
 article .fa:first-of-type {
     padding-left: 10px;
