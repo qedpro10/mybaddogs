@@ -37,7 +37,6 @@ header {
     position:fixed;
     top: 0;
     left:0;
-    height: auto;
 	background-color: #0d3d56;
 	color: white;
 	width: 100%;
@@ -99,15 +98,25 @@ nav #iamhere {
     text-decoration-color: #5A440D;
 }
 
-article {
-	overflow: auto;
+.wrapper {
+    clear: both;
+    width: 90%;
+	margin: 0 auto;
 }
 
 article p:first-of-type img {
     float: left;
     border: double black;
     border-radius: 10px;
-    margin: 0em 1em 1em 0;
+    margin: 0em 1em 3em 0;
+}
+
+article {
+    clear: left;
+}
+
+.wrapper > h2 {
+    text-align: center;
 }
 
 .columns {
@@ -115,20 +124,6 @@ article p:first-of-type img {
     width: 33%;
     padding: 0 20px;
     vertical-align: top;
-    margin-top: 0;
-}
-
-.wrapper {
-    width: 90%;
-	margin: 0 auto;
-	padding: 0;
-
-}
-
-.wrapper > h2 {
-    padding-top: 25px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .wrapper > ul {
@@ -197,17 +192,17 @@ textarea {
     height: 150px;
 }
 
-footer {
+form + p {
     clear: both;
-    bottom: 0;
-    left:0;
-    height: auto;
+}
+
+footer {
     background-color: #0d3d56;
 	color: white;
 	width: 100%;
     margin: 50px 0 0 0;
-    padding: 0;
     display: inline-block;
+    clear: both;
 }
 
 footer a:first-of-type {
