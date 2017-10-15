@@ -23,7 +23,8 @@ h3 {
 }
 
 p a:hover, a:focus {
-    background-color: lightgray;
+    background-color: #0d3d56;
+    color: white;
 }
 
 strong {
@@ -269,7 +270,8 @@ tr:nth-child(even) {
 }
 
 tr:hover, tr:focus {
-    background-color: darkgrey;
+    background-color: #0d3d56;
+    color: white;
 }
 
 button {
